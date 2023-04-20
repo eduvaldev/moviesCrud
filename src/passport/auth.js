@@ -55,8 +55,7 @@ passport.use(
 								email: user.email,
 								id: user.id,
 								role: user.role,
-                                name: user.name,
-								phone:user.phone,
+                name: user.name,
 								log:true
 							});
 							// Si las contrasenias NO matchean
